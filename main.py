@@ -17,8 +17,6 @@ dataset = np.genfromtxt('generated_features.csv', delimiter=",")
 X = dataset[:, 0:total_cols]
 y = dataset[:, total_cols]
 
-print(X)
-print(y)
 
 # Build model
 model = Sequential()
